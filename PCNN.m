@@ -1,7 +1,8 @@
 function Y0=PCNN(matrix,link_arrange,np)
 % matrix is the input image
-% np fault number is 300
-% link_arrange fault is 13.0
+% np default value is 300
+% link_arrange default is 13.0
+% you better change this parameter in your's experiment
 alpha_L=1.0;
 alpha_Theta=5.0;
 beta=6;
